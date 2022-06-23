@@ -26,8 +26,9 @@ Use Otsu's method to segment the image.
 Display the results.
 
 ## Program:
-
 ```python
+# Developed By: Aditya JV
+# Register Number: 212220230002
 # Load the necessary packages
 import cv2
 import numpy as np
@@ -70,7 +71,6 @@ for i in range(0,9):
 
 ```
 ## Output:
-
 ### Original Image
 ![image](https://user-images.githubusercontent.com/75235386/170621764-443cb690-191d-44cc-817e-89123f3dd0ac.png)
 
@@ -81,17 +81,12 @@ for i in range(0,9):
 ![image](https://user-images.githubusercontent.com/75235386/170621897-990dc813-4b6b-45ea-83ad-87d6a6af57da.png)
 ![image](https://user-images.githubusercontent.com/75235386/170621951-e65c8b62-d931-44ee-83d2-bf65f9a75547.png)
 
-
 ### Adaptive Thresholding
 ![image](https://user-images.githubusercontent.com/75235386/170622068-2ff7a357-feb8-46fd-8d66-d99b5cd1f74c.png)
 ![image](https://user-images.githubusercontent.com/75235386/170622111-dba1c218-eaec-458e-b450-2ed9da8f543a.png)
 
-
 ### Optimum Global Thesholding using Otsu's Method
 ![image](https://user-images.githubusercontent.com/75235386/170621999-dfbb8ea4-30db-4a13-a326-c1f8185847de.png)
 
-
-
 ## Result:
 Thus the images are segmented using global thresholding, adaptive thresholding and optimum global thresholding using python and OpenCV.
-
